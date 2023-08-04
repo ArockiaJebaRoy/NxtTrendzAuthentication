@@ -1,8 +1,8 @@
 // Write your JS code here
 import './index.css'
 
-const Header = () => {
-  ;<nav className="nav-header">
+const Header = () => (
+  <nav className="nav-header">
     <div className="nav-content">
       <div className="nav-bar-mobile-logo-container">
         <img
@@ -29,7 +29,7 @@ const Header = () => {
         <ul className="nav-menu">
           <li className="nav-menu-item">Home</li>
           <li className="nav-menu-item">Products</li>
-          <li className="nav-menu-item">Products</li>
+          <li className="nav-menu-item">Cart</li>
         </ul>
         <button type="button" className="logout-desktop-btn">
           {' '}
@@ -63,5 +63,5 @@ const Header = () => {
       </ul>
     </div>
   </nav>
-}
+)
 export default Header
